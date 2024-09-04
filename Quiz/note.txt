@@ -1,0 +1,7 @@
+1)dynamic render(question and option)
+2) check option is selected
+    yes           no 
+    ||            ||
+    warning      score
+
+3)total score
