@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pswd-checker.css">
+    <title>Password Strength Checker</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="input">
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
+        <div class="output">
+            <span id="output"></span>
+        </div>
+        <div class="strength-meter">
+            <div id="strength-bar"></div>
+        </div>
+    </div>
+
+    <!-- Popup Modal -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span id="popup-message"></span>
+            <button id="close-popup">OK</button>
+        </div>
+    </div>
+
+    <script src="pswd-checker.js"></script>
+</body>
+
+</html>
+            
